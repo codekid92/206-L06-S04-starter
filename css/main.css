@@ -1,0 +1,45 @@
+/*Large Background Image*/
+html {
+  background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.istockphoto.com%2Fvectors%2Fyoung-african-woman-with-dark-hair-works-on-a-laptop-work-from-home-vector-id1251388737%3Fk%3D6%26m%3D1251388737%26s%3D612x612%26w%3D0%26h%3DeJdo48hvDpL3ZpTYYovd4u44Ec_FE5k8rlnwJVs-JT0%3D&f=1&nofb=1&ipt=83241b8e0c537ef46326e3dfb11b851b600fa04619dbd6c8551c8674b97d714f&ipo=images);
+  background-size: cover;
+  background-position: center;
+  height:100%;
+}
+
+body {
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+display: flex;
+justify-content: center;
+align-items: center;
+  /* This is a fallback for the translucent background for older browsers */
+  background: #222;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 10px;
+  width: 400px;
+  height: 400px;
+}
+
+.main-paragraph {
+  width: 75%;
+}
+
+.content p span {
+  font-family: 'Lora', sans-serif;
+  font-size: 1.5rem;
+}
